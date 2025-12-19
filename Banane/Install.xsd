@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:sms="/office/sms-xsd-form" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xs:element name="install">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Banane">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="eeeee" sms:label="ee">
+								<xs:simpleType>
+									<xs:restriction>
+										<xs:enumeration value="ee" sms:caption="eee"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element type="xs:string" name="BTN" sms:label="Btn ?">
+								<xs:simpleType>
+									<xs:restriction>
+										<xs:enumeration value="1" sms:caption="Yes"/>
+										<xs:enumeration value="2" sms:caption="No"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element type="xs:string" name="BBB" sms:label="BBB">
+								<xs:simpleType>
+									<xs:restriction>
+										<xs:enumeration value="ffff" sms:caption="fffff"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
